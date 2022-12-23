@@ -1,0 +1,10 @@
+{% extends 'base_temp.html' %}
+
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <h3> {{ my_table.user_name }} </h3>
+    <small> {{ my_table.date.strftime('%Y-%m-%d') }} </small>
+  </div>
+</div>
+{% endblock %}
